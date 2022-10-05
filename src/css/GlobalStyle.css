@@ -54,10 +54,15 @@ header img{
     border: #FFFFFF 2px solid;
 }
 
+.Sidebar .profile .avatar:hover{
+    transform: scale(1.1);
+}
+
 .Sidebar .profile h3{
     color: #FFFFFF;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 .Sidebar .profile button{
