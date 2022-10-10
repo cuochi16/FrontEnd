@@ -4,12 +4,12 @@
     height: 100vh;
     left: 350px;
     top: 80px;
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* background-color: #F5F5F5; */
-    background-color: #eeeeee;
+
 }
 
 /* Heading */
@@ -105,7 +105,7 @@
     text-align: left;
     z-index: 5;
     background-color: #000000;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 15px;
 }
 
@@ -178,4 +178,3 @@
 .Control img{
     width: 100%;
 }
-

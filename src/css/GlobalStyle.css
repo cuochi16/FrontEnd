@@ -21,7 +21,11 @@ header{
     position: fixed;
 }
 
-header img{
+header .menu-icon{
+    display: none;
+}
+
+.logo{
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -190,16 +194,3 @@ header img{
 }
 
 /* CSS .Container nằm bên phải Sidebar */
-
-.Container{
-    width: 100%;
-    padding: 10px;
-    height: 100vh;
-    position: absolute;
-    left: 350px;
-    top: 80px;
-    /* background-color: #F5F5F5; */
-}
-
-
-/* ======================================== */

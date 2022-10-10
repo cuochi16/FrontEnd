@@ -1,5 +1,6 @@
 import "../css/GlobalStyle.css";
 import { useState } from "react";
+import { click } from "@testing-library/user-event/dist/click";
 
 const Sidebar = () => {
     const [active,setActive] = useState('');
@@ -7,11 +8,11 @@ const Sidebar = () => {
     const addActiveClass = (e) => {
         const clicked = e.target.id;
         if(active === clicked) {
-            setActive('');
+            setActive(clicked);
         } 
         else {
-            window.location.href = '/' + clicked;
             setActive(clicked);
+            window.location.href = clicked || '404';
         }
 
     }

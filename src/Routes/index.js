@@ -43,6 +43,7 @@ export const publicRoutes = [
         path: '/premium',
         component: Premium,
     },
+
 ];
 
 //Public Routes
