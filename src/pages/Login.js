@@ -1,5 +1,5 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "../css/Login.css";
 
